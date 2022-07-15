@@ -1,10 +1,10 @@
 import java.util.HashMap;
 
-public class Algo4 {
-    public static String Solution(String[] participant, String[] completion) {
+public class Algo04 {
+    public static String solution(String[] participant, String[] completion) {
         String answer = "";
         var counter = new HashMap<String, Integer>();
-        
+
         for (String s : participant) {
             if (!counter.containsKey(s))
                 counter.put(s, 1);
