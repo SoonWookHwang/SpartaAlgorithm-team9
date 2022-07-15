@@ -16,8 +16,6 @@ public class Algo19 {
                 else return -1;
             }
         });
-
-
         return strings;
     }
 }
