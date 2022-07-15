@@ -1,7 +1,8 @@
+package src;
+
 import java.util.Arrays;
 
-class Solution {
-
+public class Algo02 {
     public int[] solution(int[] arr, int divisor) {
         int cnt = 0;
 
@@ -25,7 +26,7 @@ class Solution {
 
         if (answer.length == 0) {
             answer = new int[1];
-            
+
             answer[0] = -1;
         }
 
