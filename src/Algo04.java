@@ -1,9 +1,7 @@
-package src;
-
 import java.util.HashMap;
 
 public class Algo04 {
-    public static String Solution(String[] participant, String[] completion) {
+    public static String solution(String[] participant, String[] completion) {
         String answer = "";
         var counter = new HashMap<String, Integer>();
         
