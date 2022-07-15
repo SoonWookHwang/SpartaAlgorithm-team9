@@ -1,6 +1,8 @@
+package src;
+
 import java.util.HashMap;
 
-public class Algo4 {
+public class Algo04 {
     public static String Solution(String[] participant, String[] completion) {
         String answer = "";
         var counter = new HashMap<String, Integer>();
