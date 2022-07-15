@@ -1,3 +1,5 @@
+package src;
+
 public class Algo03 {
     public String solution(int n) {
         String answer = "";
